@@ -5,6 +5,12 @@
 <li>Diana Kariuki </li>
 <li>Reuben Kipkemboi </li>
 
+<hr>
+
+# Description
+
+A simple To Do list applications whereby it lists all the tasks the user is to do and whrn the task is completed user can indicate its completed by click of a button.When the  utton is clicked the task is stroke through indicating that it is done
+
 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.1.
@@ -31,4 +37,6 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 
 ## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page or contact the below link
+
+#### [Email](kipkemboireuben866@gmail.com)
