@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { TasksComponent } from './tasks/tasks.component';
 import { CrossDirective } from './cross.directive';
+import { TaskFormComponent } from './task-form/task-form.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TasksComponent,
-    CrossDirective
+    CrossDirective,
+    TaskFormComponent
   ],
   imports: [
     BrowserModule,

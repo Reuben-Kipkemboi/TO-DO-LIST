@@ -6,23 +6,23 @@ import { Directive, ElementRef, HostListener } from '@angular/core'; //ElementRe
 export class CrossDirective {
 
 
-  constructor(private elem:ElementRef) { 
+  constructor(private elem: ElementRef) {
     // this.elem.nativeElement.style.textDecoration='line-through';
   }
 
-  
 
-  @HostListener("click") onClicks(){
+
+  @HostListener("click") onClicks() {
     this.crossAfterCompletion("line-through")
   }
 
-  @HostListener("dblclick") onDoubleClicks(){
+  @HostListener("dblclick") onDoubleClicks() {
     this.crossAfterCompletion("None")
   }
-  private crossAfterCompletion(action:string){
-    this.elem.nativeElement.style.textDecoration=action;
+  private crossAfterCompletion(action: string) {
+    this.elem.nativeElement.style.textDecoration = action;
 
-    
+
   }
 
 }
