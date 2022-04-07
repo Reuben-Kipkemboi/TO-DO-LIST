@@ -9,14 +9,16 @@ import { DailyTasks } from '../daily-tasks'; //importing the Daily Tasks class
 export class TasksComponent implements OnInit {
   //use of class to create the daily tasks
   tasks:DailyTasks[] =[
-    {id:1, descriptionOfTask:'Watch live movie'},
-    {id:2, descriptionOfTask:'Watch Real Madrid vs Chelsea'},
-    {id:3, descriptionOfTask:'Visit Rwanda'},
-    {id:4, descriptionOfTask:'Make an Angular TO do List '},
-    {id:5, descriptionOfTask:'learn form validation'},
-    {id:6, descriptionOfTask:'create and deploy an angular application'}
+    {name:'Movie task', descriptionOfTask:'Watch live movie with the boys'},
+    {name:'Football task', descriptionOfTask:'Watch Real Madrid vs Chelsea football match'},
+    {name:'Visit task', descriptionOfTask:'Visit Rwanda'},
+    {name:'Development task', descriptionOfTask:'Make an Angular TO do List '},
+    {name:'Learning task', descriptionOfTask:'learn form validation'},
+    {name:'Deployment task', descriptionOfTask:'create and deploy an angular application'}
 
   ];
+
+  
 
   constructor() { }
 
